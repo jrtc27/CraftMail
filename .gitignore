@@ -1,0 +1,19 @@
+# Eclipse
+/.classpath
+/.project
+/.settings
+/.externalToolBuilders
+
+# Java Build
+/build
+/bin
+/dist
+/manifest.mf
+/target
+*.class
+*.jar
+*.war
+*.ear
+
+# OS X Filesystem Dust
+.DS_Store

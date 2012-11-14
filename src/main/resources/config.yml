@@ -1,0 +1,36 @@
+#
+# CraftMail Config File
+#
+# sql.hostname - address of MySQL server
+# sql.port - port to use to connect
+# sql.database - database to store data in
+# sql.username - username to use to authenticate
+# sql.password - password to use to authenticate
+# 
+# mail.enabled - whether email notifications are sent
+# mail.smtp.host - address of mail.smtp server
+# mail.smtp.port - port to use for mail.smtp server
+# mail.smtp.from - email address to send from
+# mail.smtp.name - name to include in from field for messages
+# mail.smtp.auth.username - username for authentication
+# mail.smtp.auth.password - password for authentication
+# mail.smtp.auth.type - blank/auto, none, ssl or tls
+
+sql:
+    hostname: 'localhost'
+    port: 3306
+    database: 'CraftMail'
+    username: ''
+    password: ''
+
+mail:
+    enabled: false
+    smtp:
+        host: ''
+        port: '465'
+        from: ''
+        name: ''
+        auth:
+            username: ''
+            password: ''
+            type: 'auto'

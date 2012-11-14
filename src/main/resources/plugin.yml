@@ -1,0 +1,11 @@
+name: CraftMail
+main: com.jrtc27.CraftMail.CraftMail
+version: 0.1
+author: James Clarke (jrtc27)
+website: http://2squaredstudios.com/
+description: Integrates in-game mail with email.
+commands:
+    mail:
+        description: Access, send and manage mail.
+        usage: |
+            For help, please see /<command> help
